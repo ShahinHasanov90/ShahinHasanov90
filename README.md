@@ -1,76 +1,81 @@
 <h1 align="center">Shahin Hasanov</h1>
-<h3 align="center">Senior Data Engineer | Trade Risk Analytics | Fraud Detection</h3>
+<h3 align="center">AI Risk Systems Architect</h3>
+<p align="center">Customs Intelligence Platforms &middot; Trade Fraud Detection &middot; Multilingual NLP</p>
 
 <p align="center">
   <a href="mailto:apucalip@gmail.com"><img src="https://img.shields.io/badge/Email-apucalip%40gmail.com-red?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/shahin-hasanov"><img src="https://img.shields.io/badge/LinkedIn-Shahin%20Hasanov-blue?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <img src="https://komarev.com/ghpvc/?username=ShahinHasanov90&style=flat-square&color=blue" alt="Profile views" />
+  <a href="https://linkedin.com/in/shahin-hasanov"><img src="https://img.shields.io/badge/LinkedIn-shahin--hasanov-blue?style=flat-square&logo=linkedin&logoColor=white" /></a>
 </p>
 
 ---
 
-### About Me
-
-10+ years building **production data systems** for customs and trade operations. I design fraud detection pipelines, risk scoring engines, and multilingual NLP systems that process **100K+ records daily** in real-time.
-
-Based in **Baku, Azerbaijan** — working at the intersection of data engineering, ML, and trade compliance.
+I architect production intelligence systems for customs and trade operations — risk scoring platforms, fraud detection engines, and multilingual NLP pipelines processing **100K+ declarations daily** with sub-100ms decisioning.
 
 ```
-Customs Data (100K+/day) --> ETL Pipeline --> Risk Scoring --> Fraud Detection --> Alerts
-                                  |               |                |
-                            Validation      12 Risk Types     ML + Rules
-                            Enrichment     Real-time Score    SHAP Explain
+Trade Declarations ──► Ingestion Pipeline ──► Risk Scoring Engine ──► Fraud Intelligence
+     100K+/day              ETL + Validation       12 threat vectors       ML + Rules + SHAP
+                            HS code enrichment      real-time + batch      explainable decisions
+                            entity resolution       composite scoring      alerting + audit trail
 ```
 
----
-
-### Tech Stack
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-</p>
+Specialized in **GovTech / FinTech / BorderTech** — building systems where false negatives cost governments billions and false positives waste inspection resources.
 
 ---
 
-### Featured Projects
+### System Architecture
 
-| Project | Description | Stack |
-|---------|------------|-------|
-| [TAGS](https://github.com/ShahinHasanov90/tags) | Trade risk scoring platform — 100K+ daily records, 12 risk types, real-time scoring | Python, Streamlit, Oracle |
-| [Customs Fraud Detector](https://github.com/ShahinHasanov90/customs-fraud-detector) | ML-powered fraud detection for customs declarations (Isolation Forest + XGBoost + Rules) | scikit-learn, XGBoost, SHAP, FastAPI |
-| [ETL Pipeline Framework](https://github.com/ShahinHasanov90/etl-pipeline-framework) | Modular ETL framework for customs trade data with parallel ingestion and validation | Python, SQLAlchemy, Celery, Redis |
-| [Real-time Anomaly Detector](https://github.com/ShahinHasanov90/real-time-anomaly-detector) | Streaming anomaly detection with sliding windows and online learning | Kafka, Redis, scikit-learn, Prometheus |
-| [Trade Analytics Dashboard](https://github.com/ShahinHasanov90/trade-analytics-dashboard) | Interactive analytics dashboard — risk heatmaps, trade trends, drill-down analysis | FastAPI, React, PostgreSQL, Chart.js |
-| [AZ NLP Toolkit](https://github.com/ShahinHasanov90/az-nlp-toolkit) | Azerbaijani NLP: tokenization, stemming, transliteration, trade document NER | Python, NLTK, sentence-transformers |
-| [Entity Resolver](https://github.com/ShahinHasanov90/multilingual-entity-resolver) | Multilingual company name matching (AZ/RU/EN) — fuzzy + semantic similarity | sentence-BERT, Python |
-| [Risk Engine](https://github.com/ShahinHasanov90/trade-risk-scoring-engine) | Configurable trade risk scoring — 5 rules + Isolation Forest ML | scikit-learn, FastAPI |
+<table>
+<tr>
+<td><b>Tier</b></td>
+<td><b>System</b></td>
+<td><b>Role</b></td>
+</tr>
+<tr>
+<td rowspan="1"><b>Platform</b></td>
+<td><a href="https://github.com/ShahinHasanov90/sovereign-risk-platform">sovereign-risk-platform</a></td>
+<td>Production customs intelligence platform. 12 risk types, 100K+ daily records, sub-100ms scoring. Rule engine + ML ensemble + network analysis.</td>
+</tr>
+<tr>
+<td rowspan="2"><b>Intelligence Engines</b></td>
+<td><a href="https://github.com/ShahinHasanov90/trade-fraud-intelligence">trade-fraud-intelligence</a></td>
+<td>Ensemble fraud detection. Isolation Forest + XGBoost + deterministic rules with SHAP explainability.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/ShahinHasanov90/streaming-risk-sentinel">streaming-risk-sentinel</a></td>
+<td>Kafka-native streaming anomaly detection. Sliding windows, online ML, Prometheus-instrumented.</td>
+</tr>
+<tr>
+<td rowspan="2"><b>Infrastructure</b></td>
+<td><a href="https://github.com/ShahinHasanov90/trade-data-pipeline">trade-data-pipeline</a></td>
+<td>High-throughput ETL for customs data. Parallel extraction, validation, enrichment. 86K rec/sec.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/ShahinHasanov90/risk-operations-console">risk-operations-console</a></td>
+<td>Analyst-facing operations console. Risk heatmaps, anomaly timelines, entity drill-down.</td>
+</tr>
+<tr>
+<td rowspan="2"><b>Domain Toolkits</b></td>
+<td><a href="https://github.com/ShahinHasanov90/az-nlp-toolkit">az-nlp-toolkit</a></td>
+<td>Azerbaijani NLP: tokenization, stemming, transliteration, trade document NER.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/ShahinHasanov90/entity-resolution-engine">entity-resolution-engine</a></td>
+<td>Cross-lingual entity resolution (AZ/RU/EN). Fuzzy retrieval + sentence-BERT re-ranking.</td>
+</tr>
+</table>
 
 ---
 
-### What I Work On
+### Core Stack
 
-- **Trade Risk Analytics** — Scoring systems that evaluate customs declarations across 12+ risk dimensions in real-time
-- **Fraud Detection** — Hybrid ML + rule-based systems catching pricing fraud, misclassification, and origin manipulation
-- **Multilingual NLP** — Entity resolution and document processing across Azerbaijani, Russian, and English
-- **Data Pipelines** — High-throughput ETL systems handling 100K+ records/day with validation, enrichment, and monitoring
-- **Real-time Systems** — Streaming anomaly detection with Kafka, sliding windows, and online ML models
+`Python` `FastAPI` `PostgreSQL` `Oracle` `Redis` `Kafka` `Docker` `scikit-learn` `XGBoost` `SHAP` `sentence-transformers` `React`
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ShahinHasanov90&show_icons=true&theme=default&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ShahinHasanov90&hide_border=true" width="48%" />
-</p>
+### Domain Focus
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShahinHasanov90&layout=compact&hide_border=true&langs_count=8" width="40%" />
-</p>
+- **Trade Risk Scoring** — Multi-dimensional evaluation across 12+ threat vectors with composite scoring
+- **Fraud Detection** — Hybrid ML + rule engines for undervaluation, misclassification, origin fraud
+- **Streaming Intelligence** — Real-time anomaly detection on trade event feeds
+- **Multilingual NLP** — Entity resolution and document extraction across AZ/RU/EN
+- **Data Infrastructure** — High-throughput ETL pipelines with validation, enrichment, and auditability
