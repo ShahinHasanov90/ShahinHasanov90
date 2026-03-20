@@ -36,7 +36,11 @@ Specialized in **GovTech / FinTech / BorderTech** — building systems where fal
 <td>Production customs intelligence platform. 12 risk types, 100K+ daily records, sub-100ms scoring. Rule engine + ML ensemble + network analysis.</td>
 </tr>
 <tr>
-<td rowspan="2"><b>Intelligence Engines</b></td>
+<td rowspan="3"><b>Intelligence Engines</b></td>
+<td><a href="https://github.com/ShahinHasanov90/trade-intelligence-graph">trade-intelligence-graph</a></td>
+<td>Graph-based network analysis for fraud ring detection. Community detection, centrality, risk propagation. GraphQL API.</td>
+</tr>
+<tr>
 <td><a href="https://github.com/ShahinHasanov90/trade-fraud-intelligence">trade-fraud-intelligence</a></td>
 <td>Ensemble fraud detection. Isolation Forest + XGBoost + deterministic rules with SHAP explainability.</td>
 </tr>
@@ -68,7 +72,7 @@ Specialized in **GovTech / FinTech / BorderTech** — building systems where fal
 
 ### Core Stack
 
-`Python` `FastAPI` `PostgreSQL` `Oracle` `Redis` `Kafka` `Docker` `scikit-learn` `XGBoost` `SHAP` `sentence-transformers` `React`
+`Python` `FastAPI` `PostgreSQL` `Oracle` `Redis` `Kafka` `Docker` `NetworkX` `Neo4j` `GraphQL` `scikit-learn` `XGBoost` `SHAP` `sentence-transformers` `React`
 
 ---
 
@@ -76,6 +80,7 @@ Specialized in **GovTech / FinTech / BorderTech** — building systems where fal
 
 - **Trade Risk Scoring** — Multi-dimensional evaluation across 12+ threat vectors with composite scoring
 - **Fraud Detection** — Hybrid ML + rule engines for undervaluation, misclassification, origin fraud
+- **Network Intelligence** — Graph-based fraud ring detection, community analysis, risk propagation
 - **Streaming Intelligence** — Real-time anomaly detection on trade event feeds
 - **Multilingual NLP** — Entity resolution and document extraction across AZ/RU/EN
 - **Data Infrastructure** — High-throughput ETL pipelines with validation, enrichment, and auditability
