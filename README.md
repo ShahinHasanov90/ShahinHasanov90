@@ -37,6 +37,7 @@ Specialized in **GovTech / FinTech / BorderTech** — building systems where fal
 | [streaming-risk-sentinel](https://github.com/ShahinHasanov90/streaming-risk-sentinel) | Python | Kafka-native streaming anomaly detection. Sliding windows, online ML. |
 | [sanctions-screening-engine](https://github.com/ShahinHasanov90/sanctions-screening-engine) | Java | Sanctions list screening with fuzzy and phonetic matching. OFAC/EU/UN. |
 | [hs-code-classifier](https://github.com/ShahinHasanov90/hs-code-classifier) | Python | ML-powered HS code classification. Hierarchical TF-IDF + LightGBM. |
+| [customs-geo-intelligence](https://github.com/ShahinHasanov90/customs-geo-intelligence) | Python | Geospatial trade route analysis. Route risk scoring, sanctions zone checking, port congestion. Folium. |
 
 ### Infrastructure & Services
 
@@ -48,6 +49,9 @@ Specialized in **GovTech / FinTech / BorderTech** — building systems where fal
 | [trade-protocol-buffer](https://github.com/ShahinHasanov90/trade-protocol-buffer) | Go/gRPC | Protocol Buffer schemas for standardized trade data exchange. |
 | [cargo-tracking-api](https://github.com/ShahinHasanov90/cargo-tracking-api) | Rust | High-performance cargo tracking with milestone and customs clearance tracking. |
 | [risk-operations-console](https://github.com/ShahinHasanov90/risk-operations-console) | Python/React | Analyst-facing operations console. Risk heatmaps, anomaly timelines. |
+| [trade-event-bus](https://github.com/ShahinHasanov90/trade-event-bus) | Kotlin/Ktor | Event-driven trade message broker. Pub/sub, event replay, SSE streaming, webhook dispatch. |
+| [trade-audit-logger](https://github.com/ShahinHasanov90/trade-audit-logger) | Go | Append-only audit log service with SHA-256 hash chaining. Tamper-evident, compliance-ready export. |
+| [customs-config-server](https://github.com/ShahinHasanov90/customs-config-server) | Java/Spring | Centralized configuration server for customs microservices. Versioned configs, change audit trail. |
 
 ### High-Performance Systems
 
@@ -57,6 +61,7 @@ Specialized in **GovTech / FinTech / BorderTech** — building systems where fal
 | [trade-data-parser](https://github.com/ShahinHasanov90/trade-data-parser) | C | CSV/fixed-width/EDIFACT parser. Memory-mapped I/O, 2GB/sec throughput. |
 | [customs-declaration-codec](https://github.com/ShahinHasanov90/customs-declaration-codec) | C | WCO Data Model XML/JSON/binary encoder-decoder with CRC32 integrity. |
 | [border-queue-optimizer](https://github.com/ShahinHasanov90/border-queue-optimizer) | C | Border crossing queue optimization. DES simulation, M/M/c models, Erlang-C. |
+| [risk-scoring-benchmark](https://github.com/ShahinHasanov90/risk-scoring-benchmark) | Rust | Performance benchmarking framework for risk scoring engines. Throughput, latency percentiles, synthetic workloads. |
 
 ### Statistical Analysis & Validation
 
@@ -82,14 +87,15 @@ Specialized in **GovTech / FinTech / BorderTech** — building systems where fal
 |--------|----------|------|
 | [az-nlp-toolkit](https://github.com/ShahinHasanov90/az-nlp-toolkit) | Python | Azerbaijani NLP: tokenization, stemming, transliteration, trade NER. |
 | [entity-resolution-engine](https://github.com/ShahinHasanov90/entity-resolution-engine) | Python | Cross-lingual entity resolution (AZ/RU/EN). Fuzzy + sentence-BERT. |
+| [multi-lang-trade-translator](https://github.com/ShahinHasanov90/multi-lang-trade-translator) | Python | Trade document translation API with domain glossary. 120+ customs terms EN/AZ/RU. |
 
 ---
 
 ### Stack
 
-`Python` `R` `C` `Go` `Rust` `Java` `C#/.NET` `TypeScript` `SQL`
+`Python` `R` `C` `Go` `Rust` `Java` `Kotlin` `C#/.NET` `TypeScript` `SQL`
 
-`FastAPI` `Actix-web` `Spring Boot` `gRPC` `GraphQL` `React` `Shiny`
+`FastAPI` `Actix-web` `Spring Boot` `Ktor` `gRPC` `GraphQL` `React` `Shiny`
 
 `PostgreSQL` `Oracle` `Redis` `Neo4j` `Kafka` `dbt` `Docker` `Prometheus`
 
