@@ -52,6 +52,7 @@ Specialized in **GovTech / FinTech / BorderTech** — building systems where fal
 | [trade-event-bus](https://github.com/ShahinHasanov90/trade-event-bus) | Kotlin/Ktor | Event-driven trade message broker. Pub/sub, event replay, SSE streaming, webhook dispatch. |
 | [trade-audit-logger](https://github.com/ShahinHasanov90/trade-audit-logger) | Go | Append-only audit log service with SHA-256 hash chaining. Tamper-evident, compliance-ready export. |
 | [customs-config-server](https://github.com/ShahinHasanov90/customs-config-server) | Java/Spring | Centralized configuration server for customs microservices. Versioned configs, change audit trail. |
+| [customs-notification-hub](https://github.com/ShahinHasanov90/customs-notification-hub) | C#/.NET | Multi-channel notification dispatcher (email/SMS/webhook). Retry with backoff, quiet hours, escalation chains. |
 
 ### High-Performance Systems
 
@@ -62,6 +63,7 @@ Specialized in **GovTech / FinTech / BorderTech** — building systems where fal
 | [customs-declaration-codec](https://github.com/ShahinHasanov90/customs-declaration-codec) | C | WCO Data Model XML/JSON/binary encoder-decoder with CRC32 integrity. |
 | [border-queue-optimizer](https://github.com/ShahinHasanov90/border-queue-optimizer) | C | Border crossing queue optimization. DES simulation, M/M/c models, Erlang-C. |
 | [risk-scoring-benchmark](https://github.com/ShahinHasanov90/risk-scoring-benchmark) | Rust | Performance benchmarking framework for risk scoring engines. Throughput, latency percentiles, synthetic workloads. |
+| [logistics-pathfinder](https://github.com/ShahinHasanov90/logistics-pathfinder) | F#/.NET | Multi-modal trade routing. Dijkstra, A*, and Yen's k-shortest-paths over port/border/hub networks. |
 
 ### Statistical Analysis & Validation
 
@@ -80,6 +82,8 @@ Specialized in **GovTech / FinTech / BorderTech** — building systems where fal
 | [compliance-rule-engine](https://github.com/ShahinHasanov90/compliance-rule-engine) | C#/.NET | Tariff lookup and trade compliance. HS trie search, fuzzy matching, Redis. |
 | [inspection-scheduler](https://github.com/ShahinHasanov90/inspection-scheduler) | TypeScript | Customs inspection scheduling. Risk-based priority, workload optimization. |
 | [trade-document-ocr](https://github.com/ShahinHasanov90/trade-document-ocr) | Python | Trade document OCR and structured field extraction. Multi-language. |
+| [trade-settlement-engine](https://github.com/ShahinHasanov90/trade-settlement-engine) | C#/.NET | Multi-currency duty settlement and FX reconciliation. Event-sourced payment/refund lifecycle. |
+| [customs-broker-portal](https://github.com/ShahinHasanov90/customs-broker-portal) | C#/.NET | ASP.NET Core portal for licensed brokers. Declaration lifecycle, power-of-attorney gating, audit timeline. |
 
 ### Domain Toolkits
 
@@ -93,7 +97,7 @@ Specialized in **GovTech / FinTech / BorderTech** — building systems where fal
 
 ### Stack
 
-`Python` `R` `C` `Go` `Rust` `Java` `Kotlin` `C#/.NET` `TypeScript` `SQL`
+`Python` `R` `C` `Go` `Rust` `Java` `Kotlin` `C#/.NET` `F#` `TypeScript` `SQL`
 
 `FastAPI` `Actix-web` `Spring Boot` `Ktor` `gRPC` `GraphQL` `React` `Shiny`
 
