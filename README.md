@@ -38,6 +38,8 @@ Specialized in **GovTech / FinTech / BorderTech** — building systems where fal
 | [sanctions-screening-engine](https://github.com/ShahinHasanov90/sanctions-screening-engine) | Java | Sanctions list screening with fuzzy and phonetic matching. OFAC/EU/UN. |
 | [hs-code-classifier](https://github.com/ShahinHasanov90/hs-code-classifier) | Python | ML-powered HS code classification. Hierarchical TF-IDF + LightGBM. |
 | [customs-geo-intelligence](https://github.com/ShahinHasanov90/customs-geo-intelligence) | Python | Geospatial trade route analysis. Route risk scoring, sanctions zone checking, port congestion. Folium. |
+| [trade-llm-assistant](https://github.com/ShahinHasanov90/trade-llm-assistant) | Python | RAG-based LLM assistant for brokers. Multi-provider, tool calls, citation-grounded answers. |
+| [trade-record-linker](https://github.com/ShahinHasanov90/trade-record-linker) | Python | Record linkage for noisy customs data. Blocking, comparators, rule-based + ML classifiers. |
 
 ### Infrastructure & Services
 
@@ -53,6 +55,9 @@ Specialized in **GovTech / FinTech / BorderTech** — building systems where fal
 | [trade-audit-logger](https://github.com/ShahinHasanov90/trade-audit-logger) | Go | Append-only audit log service with SHA-256 hash chaining. Tamper-evident, compliance-ready export. |
 | [customs-config-server](https://github.com/ShahinHasanov90/customs-config-server) | Java/Spring | Centralized configuration server for customs microservices. Versioned configs, change audit trail. |
 | [customs-notification-hub](https://github.com/ShahinHasanov90/customs-notification-hub) | C#/.NET | Multi-channel notification dispatcher (email/SMS/webhook). Retry with backoff, quiet hours, escalation chains. |
+| [trade-metrics-api](https://github.com/ShahinHasanov90/trade-metrics-api) | Python/Flask | Read-heavy metrics API for customs trade KPIs. Pluggable sources, TTL LRU cache, Prometheus-ready. |
+| [pipeline-health-monitor](https://github.com/ShahinHasanov90/pipeline-health-monitor) | Go | Data-quality watchdog for customs ETL. Freshness, row-count parity, null-rate, schema drift, Prometheus. |
+| [tariff-schedule-scraper](https://github.com/ShahinHasanov90/tariff-schedule-scraper) | Python | Polite tariff-harvesting pipeline. HTML/PDF extraction, backoff, delta detection vs prior snapshot. |
 
 ### High-Performance Systems
 
@@ -64,6 +69,7 @@ Specialized in **GovTech / FinTech / BorderTech** — building systems where fal
 | [border-queue-optimizer](https://github.com/ShahinHasanov90/border-queue-optimizer) | C | Border crossing queue optimization. DES simulation, M/M/c models, Erlang-C. |
 | [risk-scoring-benchmark](https://github.com/ShahinHasanov90/risk-scoring-benchmark) | Rust | Performance benchmarking framework for risk scoring engines. Throughput, latency percentiles, synthetic workloads. |
 | [logistics-pathfinder](https://github.com/ShahinHasanov90/logistics-pathfinder) | F#/.NET | Multi-modal trade routing. Dijkstra, A*, and Yen's k-shortest-paths over port/border/hub networks. |
+| [trade-fixture-generator](https://github.com/ShahinHasanov90/trade-fixture-generator) | Rust | Parallel synthetic customs declaration generator. Tunable fraud injection, Parquet output, rayon. |
 
 ### Statistical Analysis & Validation
 
@@ -73,6 +79,7 @@ Specialized in **GovTech / FinTech / BorderTech** — building systems where fal
 | [customs-anomaly-viz](https://github.com/ShahinHasanov90/customs-anomaly-viz) | R/Shiny | Interactive anomaly visualization dashboard. Leaflet maps, plotly charts. |
 | [risk-model-validator](https://github.com/ShahinHasanov90/risk-model-validator) | R | ML model validation. Backtesting, calibration, PSI stability, ROC/AUC. |
 | [risk-report-generator](https://github.com/ShahinHasanov90/risk-report-generator) | R | Automated risk assessment report generator. R Markdown templates. |
+| [customs-risk-notebooks](https://github.com/ShahinHasanov90/customs-risk-notebooks) | Jupyter | Six-notebook series on customs data analysis. EDA, concentration, undervaluation, anomalies, classifier. |
 
 ### Compliance & Microservices
 
@@ -84,6 +91,10 @@ Specialized in **GovTech / FinTech / BorderTech** — building systems where fal
 | [trade-document-ocr](https://github.com/ShahinHasanov90/trade-document-ocr) | Python | Trade document OCR and structured field extraction. Multi-language. |
 | [trade-settlement-engine](https://github.com/ShahinHasanov90/trade-settlement-engine) | C#/.NET | Multi-currency duty settlement and FX reconciliation. Event-sourced payment/refund lifecycle. |
 | [customs-broker-portal](https://github.com/ShahinHasanov90/customs-broker-portal) | C#/.NET | ASP.NET Core portal for licensed brokers. Declaration lifecycle, power-of-attorney gating, audit timeline. |
+| [customs-valuation-engine](https://github.com/ShahinHasanov90/customs-valuation-engine) | TypeScript | WCO six-method customs valuation. Incoterm-aware adjustments, audit trail of method selection. |
+| [customs-tender-marketplace](https://github.com/ShahinHasanov90/customs-tender-marketplace) | TypeScript/Next.js | B2B marketplace for broker tenders and bids. Lifecycle enforcement, shortlisting, award workflow. |
+| [risk-analyst-workbench](https://github.com/ShahinHasanov90/risk-analyst-workbench) | React/FastAPI | Triage workbench for risk analysts. Filtered queues, action toolbar, case timeline. |
+| [duty-dispute-tracker](https://github.com/ShahinHasanov90/duty-dispute-tracker) | Python/FastAPI | Case management for duty-assessment disputes. Lifecycle, evidence, decisions, export package. |
 
 ### Domain Toolkits
 
@@ -92,6 +103,16 @@ Specialized in **GovTech / FinTech / BorderTech** — building systems where fal
 | [az-nlp-toolkit](https://github.com/ShahinHasanov90/az-nlp-toolkit) | Python | Azerbaijani NLP: tokenization, stemming, transliteration, trade NER. |
 | [entity-resolution-engine](https://github.com/ShahinHasanov90/entity-resolution-engine) | Python | Cross-lingual entity resolution (AZ/RU/EN). Fuzzy + sentence-BERT. |
 | [multi-lang-trade-translator](https://github.com/ShahinHasanov90/multi-lang-trade-translator) | Python | Trade document translation API with domain glossary. 120+ customs terms EN/AZ/RU. |
+| [trade-data-profiler](https://github.com/ShahinHasanov90/trade-data-profiler) | Python | Data-quality profiler for trade datasets. Null/drift/HS-conformance/outlier reporting with HTML export. |
+| [customs-api-testkit](https://github.com/ShahinHasanov90/customs-api-testkit) | Python | pytest plugin for customs APIs. Fixture factories, contract assertions, mock authority, traffic shapers. |
+
+### Mobile & Interactive
+
+| System | Language | Role |
+|--------|----------|------|
+| [broker-mobile-app](https://github.com/ShahinHasanov90/broker-mobile-app) | Kotlin | Android companion for licensed brokers. Compose + MVVM + Room. Offline outbox, approval workflow. |
+| [inspector-field-app](https://github.com/ShahinHasanov90/inspector-field-app) | Kotlin | Android field app for customs inspectors. CameraX + ML Kit barcode scanner, offline-first sync. |
+| [customs-training-simulator](https://github.com/ShahinHasanov90/customs-training-simulator) | C#/Unity | 3D training simulator for customs officers. Fraud-pattern scenarios, scoring rules, ScriptableObjects. |
 
 ---
 
@@ -99,8 +120,10 @@ Specialized in **GovTech / FinTech / BorderTech** — building systems where fal
 
 `Python` `R` `C` `Go` `Rust` `Java` `Kotlin` `C#/.NET` `F#` `TypeScript` `SQL`
 
-`FastAPI` `Actix-web` `Spring Boot` `Ktor` `gRPC` `GraphQL` `React` `Shiny`
+`FastAPI` `Flask` `Actix-web` `Spring Boot` `Ktor` `ASP.NET Core` `Next.js` `Vite` `gRPC` `GraphQL` `React` `Shiny`
 
-`PostgreSQL` `Oracle` `Redis` `Neo4j` `Kafka` `dbt` `Docker` `Prometheus`
+`Jetpack Compose` `Room` `Hilt` `CameraX` `Unity` `ScriptableObjects`
 
-`scikit-learn` `XGBoost` `LightGBM` `SHAP` `NetworkX` `sentence-transformers`
+`PostgreSQL` `Oracle` `Redis` `Neo4j` `Kafka` `dbt` `Docker` `Prometheus` `Parquet`
+
+`scikit-learn` `XGBoost` `LightGBM` `SHAP` `NetworkX` `sentence-transformers` `FAISS` `pdfplumber`
